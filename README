@@ -1,0 +1,66 @@
+Nume: Ion-Irinel Dinu
+Seria: CA 
+Grupa: 325CA
+
+
+                        TEMA 2 IOCLA - Memoria lui Biju
+------------------------------------------------------------------------------- 
+
+CONTINUT ARHIVA
+
+rotp.asm, ages.asm, columnar.asm, cache.asm - fisere cod sursa
+README - fisierul care contine despre structura si implementare
+
+------------------------------------------------------------------------------
+
+Task ROTP  
+
+-> In cadrul acestui task, au fost preluate mai intai datele de input.
+Apoi am creat un label, in cadrul caruia am determinat pentru inceput pozitia
+index-ului dorit pentru a accesa caracterul specific cheii. Am determinat
+fiecare caracter in parte, le-am adaugat in registrii corespunzatori si am 
+realizat operatia de xor.Apoi am adaugat rezultatul in registrul final, si am
+reluat procesul simuland o bucla cat timp mai exista caractere in cele doua 
+stringuri.
+
+
+Task AGES 
+
+-> In cadrul acestui task, pentru inceput au fost preluate datele de input si 
+actualizat contorul pentru o iteratie descrescatoare. Apoi in cadrul label
+-urilor create am determinat varsta finala in functie de diferite cazuri.
+
+calculate_ages 
+-> am accesat anul curent si anul corespunzator datei de nastere, am realizat 
+diferenta dintre cei doi ani si am adaugat in registru rezultatul final  
+-> am accesat apoi cele doua luni corespunzatoare
+-> daca luna specifica datei de nastere este mai mare decat luna curenta 
+am aplicat o decrementare
+-> daca lunile sunt egale, am continuat rationamentul, actualizand varsta pe 
+baza zilelor
+-> daca conditiile de mai sus nu sunt indeplinite, am continuat iteratia
+
+update_date: 
+-> am accesat valorile celor doua zile corespunzatoare
+-> daca valoarea diferentei anilor este 0, se continua iteratia
+-> daca ziua specifica datei de nastere este mai mare decat ziua curenta 
+am aplicat o decrementare
+-> apoi am tratat cazul in care data nasterii este mai mare decat data curenta,
+reprezentand o data invalida
+-> in caz negativ se continua iteratia
+-> daca contorul a ajuns la final, se opreste executia
+
+invalid_date:
+-> am adaugat la valoarea registrului cu varsta finala 0
+-> se continua iteratia
+
+apply_decrement:
+-> am accesat valoare registrului cu varsta finala determinata
+-> am decrementat valoarea cu 1
+-> am adaugat rezultatul final in registru si am continuat iteratia
+
+update_iterration:
+-> am decrementat valoare registrului ce contine valoare contorului
+-> in cazul in care nu s-a ajuns pe pozitia 0 se continua iteratia
+
+Task COLUMNAR 
