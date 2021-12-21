@@ -1,9 +1,9 @@
 # Biju's Memory - Cryptology applications
 -------------------------------------------------------------------------------
 
-## CONTENT ARCHIVE
+## Content Archive
 
-rotp.asm, ages.asm, columnar.asm, cache.asm - source code files
+rotp.asm, ages.asm, columnar.asm, cache.asm - source code files <br>
 README - the file that contains details about the structure and implementation
 
 -------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ update_iterration:
 -> I decremented the value of the register that contains the value of the counter
 -> in case position 0 is not reached, the iteration is continued
 
-COLUMN TASK
+## COLUMN TASK
 
 Similarly, in this task, the data were first taken over
 input. Based on these we determined the final encrypted string using a
