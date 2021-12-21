@@ -1,16 +1,15 @@
 # Biju's Memory - Cryptology applications
 -------------------------------------------------------------------------------
 
-CONTENT ARCHIVE
+## CONTENT ARCHIVE
 
 rotp.asm, ages.asm, columnar.asm, cache.asm - source code files
 README - the file that contains details about the structure and implementation
 
 -------------------------------------------------------------------------------
 
-TASK ROTP
-
--> In this task, the input data was taken first.
+## TASK ROTP <br>
+In this task, the input data was taken first.
 Then I created a label, in which I first determined the position
 the desired index to access the key-specific character. I determined
 each character separately, I added them in the corresponding registers and I
@@ -19,9 +18,8 @@ resumed the process simulating a loop while there are still characters in the tw
 strings.
 
 
-TASK AGES
-
--> In this task, the input data and
+## TASK AGES <br>
+In this task, the input data and
 updated the counter for a decreasing iteration. Then under the label
 We have determined the final age according to different cases.
 
