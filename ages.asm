@@ -1,4 +1,3 @@
-
 ; the structure of the date
 struc  my_date
     .day: resw 1
