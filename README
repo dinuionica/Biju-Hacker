@@ -1,17 +1,12 @@
-Name: Ion-Irinel Dinu
-Series: CA
-Group: 325CA
-
-
-                     THEME 2 IOCLA - Biju's Memory
--------------------------------------------------- ----------------------------
+# Biju's Memory - Cryptology applications
+-------------------------------------------------------------------------------
 
 CONTENT ARCHIVE
 
 rotp.asm, ages.asm, columnar.asm, cache.asm - source code files
 README - the file that contains details about the structure and implementation
 
--------------------------------------------------- ----------------------------
+-------------------------------------------------------------------------------
 
 TASK ROTP
 
