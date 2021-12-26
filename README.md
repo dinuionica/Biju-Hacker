@@ -1,6 +1,8 @@
 # Biju's Memory - Cryptology applications
 -------------------------------------------------------------------------------
 
+Biju wants to be a hacker. This project simulates a series of cryptology applications used to encrypt a series of messages.
+
 ## Content Archive
 
 rotp.asm, ages.asm, columnar.asm, cache.asm - source code files <br>
