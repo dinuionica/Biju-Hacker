@@ -10,7 +10,7 @@ README - the file that contains details about the structure and implementation  
 
 -------------------------------------------------------------------------------
 
-## TASK ROTP <br>
+## Task Rotp <br>
 In this task, the input data was taken first.
 Then I created a label, in which I first determined the position
 the desired index to access the key-specific character. I determined
@@ -20,7 +20,7 @@ resumed the process simulating a loop while there are still characters in the tw
 strings.
 
 
-## TASK AGES <br>
+## Task Ages <br>
 In this task, the input data and
 updated the counter for a decreasing iteration. Then under the label
 We have determined the final age according to different cases.
@@ -58,7 +58,7 @@ update_iterration:  <br>
 -> I decremented the value of the register that contains the value of the counter  <br>
 -> in case position 0 is not reached, the iteration is continued  <br>
 
-## COLUMN TASK
+## Task Columnar
 
 Similarly, in this task, the data were first taken over
 input. Based on these we determined the final encrypted string using a
