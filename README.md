@@ -2,6 +2,7 @@
 -------------------------------------------------------------------------------
 
 Biju wants to be a hacker. This project simulates a series of cryptology applications used to encrypt a series of messages.
+The operations were performed in 32-bit assembly language.
 
 ## Content Archive
 
